@@ -1,0 +1,20 @@
+SIMULACION DE MODELOS POBLACIONALES
+
+construiremos, simularemos y analizaremos diversos modelos simples
+que estudian el crecimiento de poblaciones, a traves del programa 
+Vensim PLEr.
+
+Un determinado pueblo tiene 5000 habitantes. 
+Cada año, aproximadamente nacen 150 bebes.
+Nuestro objetivo es el de estimar la poblacion en los proximos años.
+Del enunciado del problema se desprende que
+– POBLACION: valor inicial = 5000; unidades: Personas.
+– nacimientos: 150; unidades = Personas/año
+
+Ahora necesitamos algo mas de informacion sobre el pueblo.
+Nos hemos enterado que nacen 150 personas cada año, 
+pero tambien mueren 75 personas cada ano. 
+Deseamos analizar la evolucion de la poblacion en los proximos años.
+Para ello, construimos un flujo de salida y le denominamos muertes,
+e introducimos las ecuaciones:
+– muertes = 75; unidades = Personas/Año.

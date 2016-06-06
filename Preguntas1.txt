@@ -1,0 +1,115 @@
+-----------------------------------------------
+Es el tiempo en el que el servidor no atiende clientes
+
+Seleccione una:
+	¿Qué es el tiempo de ocio?
+-----------------------------------------------
+Sea (Xn = a Xn-i + b mod m) un generador congruencial con los 
+siguientes parámetros: 111=171, a=i3, b=y y Xo=25, 
+generar los primeros 100 valores Xi y Ui. 
+¿Cuales son los primeros cinco números?
+
+Seleccione una:
+	0.6129, 0.5484, 0.9677, 0.7419, 0.7097 
+---------------------------------------------
+Si un generador multiplicativo tiene los parámetros a, m y Xo 
+siempre fijos por defecto, la secuencia de números 
+aleatorios será siempre la misma PORQUE los generadores 
+multiplicativos no son determinísticos.
+
+Seleccione una:
+Si la afirmacion es VERDADERA, pero la razon
+es una proposicion FALSA
+--------------------------------------
+Es el tiempo de usuario en la cola más el tiempo de servicio
+
+Seleccione una:
+	¿Qué es el tiempo en el sistema?
+----------------------------------------------
+In a queue system when more clients arrive than those 
+are served, select which case applies:
+
+En un sistema de cola cuando llegan más clientes 
+de los que se sirven, seleccione cuyo caso se aplica 
+ 
+Seleccione una:
+	Lambda is greater than Mu. 
+	Lambda es mayor que Mu
+----------------------------------------------
+In a queue system when less clients arrive than those 
+are served, select which case applies:
+
+En un sistema de cola cuando llegan menos clientes 
+de los que se sirven, seleccione cuyo caso se aplica 
+ 
+Seleccione una:
+	Mu is greater than Lamda. 
+	Mu es mayor que Lambda  
+---------------------------------------------
+It is not part a queue system structure:
+No es parte de una estructura de sistema de colas:
+
+Seleccione una:
+	Enviroment.
+---------------------------------------------
+It is not an example of a queue system:
+
+No es un ejemplo de un sistema de cola :
+
+Seleccione una:
+	A tree.
+--------------------------------------------
+It is not part of a queue system structure:
+
+No es parte de una estructura de sistema de cola :
+
+Seleccione una:
+	Chi-square
+--------------------------------------------
+No es un elemento de la simulación basada en agentes
+
+Seleccione una:
+	Retroalimentacion
+-------------------------------------
+No es un paradigma de simulación
+
+Seleccione una:
+	Basada en variables aleatorias
+-----------------------------------
+No es un software de simulación basado en agentes
+
+Seleccione una:
+	VenSim
+------------------------------
+Para D/D/1, lamda=4 y miu=3- En t=2 
+¿Cuantos clientes salen del sistema y cuantos quedan en cola?
+
+Seleccione una:
+	6 y 3
+--------------------------------
+Un modelo de colas determinístico con tiempo 
+entre 2 llegadas= 1/lamda
+¿Cual es la tasa de llegadas?
+
+Seleccione una: 
+	landa
+---------------------------------
+Which is not a queueing method?
+
+Que no es un método de puesta en cola ?
+
+Seleccione una:
+	Exponential 
+
+
+
+
+
+
+
+
+
+
+
+
+

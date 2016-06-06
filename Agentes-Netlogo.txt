@@ -1,0 +1,100 @@
+La simulación basada en agentes se puede definir 
+como un método informático que permite construir 
+modelos constituidos por agentes que interaccionan 
+entre sí dentro de un entorno para llevar a cabo 
+experimentos virtuales (Gilbert, 2008).
+
+Motivacion
+Los sistemas más complejos
+	Los sistemas que necesitan ser analizados son cada 
+	vez más complejas
+	La descentralización de la toma de decisiones: 
+	la industria de energía eléctrica " liberalizado "
+	Sistemas aproximan a los límites de diseño: Las redes 
+	de transporte
+	El aumento de las interdependencias físicas y económicas: 
+	infraestructuras ( electricidad, gas natural , telecomunicaciones )
+Nuevas herramientas , conjuntos de herramientas , métodos de modelización
+	Algunos sistemas han sido siempre compleja , 
+	pero no existen herramientas para analizarlos
+	los mercados económicos y la diversidad de los agentes económicos
+	Los sistemas sociales , redes sociales
+Datos
+	Los datos ahora organizada en bases de datos 
+	a niveles más sutiles de la granularidad ( microdatos ) 
+	- puede ahora apoyar microsimulaciones
+
+¿Qué es un agente?
+	Una entidad discreta con sus propios objetivos y comportamientos
+	Autónoma , con una capacidad de adaptar y modificar sus 
+	comportamientos
+supuestos
+	Algunos aspectos clave del comportamiento puede ser descrito .
+	Los mecanismos por los que interactúan los agentes pueden ser 
+	descritos .
+	complejos procesos sociales y un sistema pueden ser construidos 
+	"de abajo hacia arriba".
+Ejemplos
+	Personas, grupos, organizaciones
+	Los insectos sociales , enjambres
+	Robots, sistemas de robots que colaboran
+Los agentes son diversos y heterogéneos
+
+Agente típico
+	Los agentes son unidades autónomas de toma de 
+	decisiones con diversas características (heterogéneos)
+
+Funcion + memoria + objeto + autonomia ==> AGENTE
+
+Tipos de topologias entre agentes
+
+Los agentes pueden moverse en el espacio libre ( continua )
+Los autómatas celulares tienen agentes que interactúan en 
+"barrios " locales
+Los agentes pueden estar conectados por redes de diversos tipos 
+y ser estático o dinámico
+Los agentes pueden moverse sobre los embaldosados ??(SIG) 
+Sistemas de Información Geográfica
+A veces las interacciones espaciales no son importantes 
+( " sopa " Modelo )
+
+NetLogo
+
+Netlogo es un lenguaje de programación que sigue la filosofía del modelado basado en agentes.
+Concretamente, en Netlogo existen 3 tipos de agentes:
+- Turtles (tortugas).
+- Patches (celdas).
+- Links (relaciones entre tortugas).
+- Observer (observador).
+
+Comandos
+
+crt 2 ;; crea dos tortugas (equivalente: create-turtles 2)
+
+forward ;; (fd) avanzar
+back ;; (bk) retroceder
+left ;; (lt) giro a la izquierda
+right ;; (rt) giro a la derecha
+repeat ;; repetir un conjunto de primitivas 
+pen-up ;;(pu) subir el lápiz (los agentes no deja huella al moverse)
+pen-down ;;(pd) bajar el lápiz (los agentes dejan trazos al moverse)
+clear-all;;(ca) se resetean variables, se limpia “el mundo”, se borran gráficas, etc.
+
+Ejemplo:
+clear-all ;; (equivalente: ca)
+crt 1 ;; creamos 1 tortuga
+ask turtles [fd 5 rt 90 fd 5 rt 90 fd 5 rt 90 fd 5]
+Hace un cuadrado
+
+Procedimientos
+
+to comenzar
+ca                                      ;; clear-all
+ask patches [set pcolor blue]           ;; mundo azul
+crt 1                                   ;; creamos una tortuga
+ask turtles [set color orange set heading 0] ;; color naranja, orientación "arriba"
+ask turtles [pd repeat 4 [fd 5 rt 90] pu]    ;; dibujamos el cuadrado
+End
+
+
+

@@ -1,0 +1,122 @@
+-----------------------------------------------
+Una secuencia de valores pseudoaletorios debe asegurar: 
+1. Uniformidad 2. Complejidad 3. Aleatoriedad 4. Circularidad
+
+Seleccione una:
+	 las opciones 1 y 3 son correctas 
+----------------------------------------------
+El método de contraste de Kolmogorov-Smirnov es una prueba 
+de uniformidad PORQUE permite calcular un estadístico de 
+contraste para validar uniformidad al compararlo con una 
+función de distribución uniforme.
+
+La respuesta correcta es: Si la afirmación y la razón 
+son VERDADERAS y la razón es una explicación CORRECTA 
+de la afirmación
+--------------------------------------------
+Sea (Xn = a Xn-i + b mod m) un generador congruencial 
+con los siguientes parámetros: m=171, a=13, b=7 y Xo=25, 
+generar los primeros 100 valores Xi y Ui.
+ ¿Cual es la longitud de la secuencia?
+
+18
+-----------------------------------------
+Pregunta 1: Sea (Xn = a Xn-i + b mod m) un generador congruencial 
+con los siguientes parámetros: m=29, a=3, b=7y Xo=3, generar 
+los primeros 20 valores Xi y Ui para responder las Pregunta del 1 al 5. 
+¿Cual es la longitud de la secuencia?
+
+Ninguna de las anteriores
+-------------------------------------------
+Pregunta 2: ¿Cuales son los primeros cinco números?
+
+ 0.5517, 0.8966, 0.9310, 0.0345, 0.3448 
+----------------------------------------
+Pregunta 3: ¿Cual es el promedio y la desviación estándar 
+de los números aleatorios?
+
+0.4828 y 0.3080
+---------------------------------------
+Pregunta 4: ¿Cual es el valor del estadístico T para la prueba 
+de uniformidad de Chi-cuadrado usando 10 grados de libertad?
+
+4
+-----------------------
+Pregunta 5: ¿Cual es el valor de la distribución Chi-cuadrado 
+con un alpha=o.os para comparar el valor del estadístico T?
+
+18.307
+----------------------------------------
+Pregunta 6: Sea (X11 = a X11-1 + b mod m) 
+un generador congruencial con los siguientes parámetros: 
+m=113, a=2, b=5yXo=i3, los valores Xi y X2 son:
+ 1. "13" 2. "31" 3. "8" 4. "67"
+
+Si las opciones 2 y 4 son correctas 
+-----------------------------------
+Pregunta 7: Dos ventajas de la simulación son: 
+1. La simulación no interrumple sistemas reales 
+2. La simulación permite análisis tipo "qué pasaría si" 
+3. Una simulación precisa necesita bastante tiempo 
+4. Algunas veces, los resultados de una simulación son difíciles de analizar.
+
+Si las opciones 1 y 2 son correctas
+-----------------------------------
+Pregunta 9: Dos pruebas de uniformidad para números aleatorios son:
+ 1. Midsquare 2. Kolmogorov-Smirnov 3. Chi-cuadrado 4. Montecarlo
+
+Si las opciones 2 y 3 son correctas
+---------------------------
+Pregunta 10: Son dos distribuciones de probabilidad discretas: 
+1. Distribución geométrica 2. Distribución Binomial 
+3. Distribución Gamma 4. Distribución Bernoulli
+
+Si las opciones 2 y 4 son correctas
+-------------------
+Pregunta 11: Todos los generadores congruenciales mixtos son de 
+ciclo completo PORQUE la longitud del ciclo es igual el valor m 
+del módulo.
+
+Si la afirmación es FALSA, pero la razón es una proposición VERDADERA
+-------------------------------
+Pregunta 12: La simulación se utiliza únicamente cuando no es 
+posible operar sobre el sistema real PORQUE es siempre menos costoso 
+actuar directamente sobre el sistema.
+
+Si tanto la afirmacion como la razon son proposiciones FALSAS
+--------------------------
+Pregunta 13: Si un generador multiplicativo tiene los parámetros 
+a, m y Xo siempre fijos por defecto, la secuencia de números 
+aleatorios será siempre la misma PORQUE los generadores multiplicativos
+ no son determinísticos.
+
+Si la afirmación es VERDADERA, pero la razón es una proposición FALSA
+-------------------------------------
+Pregunta 14: Para todos los generadores congruenciales mixtos, 
+es recomendable utilizar como semilla Xo=16 PORQUE esto permite
+ hallar el periodo máximo para cualquier m.
+
+Si tanto la afirmación como la razón son proposiciones FALSAS 
+----------------------------------------------
+Pregunta 15: El método de contraste de pares consecutivos no 
+solapados es una prueba de uniformidad PORQUE permite calcular un
+ estadístico de contraste para validar uniformidad al compararlo 
+con la distribución Chi-cuadrado.
+
+Si la afirmación y la razón son VERDADERAS y la razón es 
+una explicación CORRECTA de la afirmación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

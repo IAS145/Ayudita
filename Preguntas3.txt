@@ -1,0 +1,51 @@
+----------------------------------------
+Considere un par de dados de un popular juego de rol, 
+uno con 13 caras y valores de 1 a 13, y el otro con 9 caras 
+y con valores de 1 a 9. En ambos dados cada cara tiene la misma 
+probabilidad. La variable aleatoria por lo tanto es la suma 
+de los dos dados. Con ésta información:
+1)	¿Cuál es el valor esperado?.
+2)	Impleniente la generación de variables aleatorias usando 
+el método de la inversión con su propio generador de variables 
+aleatorias y genere 100 valores.
+3)	Grafique el histograma de la distribución de los 100 valores 
+generados y grafique la distribución de probabilidad de la 
+variable aleatoria.
+4)	Genere ahora 1000 valores y grafique el histograma 
+de la distribución de los valores generados junto con la 
+gráfica de la distribución de probabilidad de la variable aleatoria.
+5) Realice la prueba de Chi-cuadrado para comparar la distribución de 
+probabilidad estimada a partir del histograma obtenido 
+con 1000 valores y una distribución normal de media 11 y 
+desviación estándar 2.
+---------------------------------
+
+Para un generador congruencial mixto con parámetros a=5, b=9 m=17 y 
+semilla Xo=7 generar los primeros 20 números aleatorios y 
+aplicar la prueba de unif20ormidad de Chi-cuadrado con 10 grados
+ de libertad y un alpha=5% (0.05) proporcionando el valor del 
+estadístico T y si se rechaza o 110 la hipótesis de uniformidad. 
+Copiar el enlace y subir el archivo de notebook de Python (.ipynb) 
+con el desarrollo del ejercicio.
+-----------------------------
+Diseñe un modelo de colas para la atención de cliente de un 
+restaurante de comidas rápidas para 10 iteraciones considerando que:
+1)	llegan 100 clientes por cada hora,
+2)	existe un cajero que recibe los pedidos de los clientes 
+y se demora 1 minuto por cliente,
+3)	luego de que el cliente paga y le reciben el pedido, 
+se dirige a recibir su pedido en donde se lo entrega un empleado 
+el cual se toma 1 minuto por cliente,
+4)	luego de recibir el pedido, el cliente se dirige a uno 
+de 7 puestos individuales, en donde en cada uno se demora un cliente
+ 15 minutos en comer y luego sale del restaurante.
+Con la anterior información:
+1)	Proponga el diseño del sistema y
+2)	para las 10 iteraciones calcule el numero de clientes atendidos,
+3)	tamaño promedio de la cola del cajero y de las mesas,
+4)	tiempo promedio en el restaurante de los clientes.
+---------------------------
+
+
+
+

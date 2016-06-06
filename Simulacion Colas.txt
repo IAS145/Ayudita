@@ -1,0 +1,124 @@
+Introducci ´on a la Teor ´ia de Colas
+
+Las lineas de espera son parte de la vida diaria.
+Hacemos cola en el supermercado para obtener diferentes productos
+o para pagar los art ´iculos adquiridos, en el banco para gestionar 
+nuestras cuentas, en la cantina universitaria para tomar un cafe
+o en el medico esperando a ser atendidos.
+
+
+Estructura b ´asica de los modelos de colas
+
+La fuente de entrada la forman los clientes que desean acceder 
+al sistema (de alguna forma es como la poblaci ´on de clientes potenciales).
+Su tamano es el numero total de clientes que pueden requerir 
+el servicio en un determinado momento.
+
+Los clientes entran al sistema cada cierto tiempo y se unen a una cola.
+
+Se debe especificar el patron estadistico mediante el cual los clientes
+entran al sistema. La suposicion habitual es que los clientes acceden 
+al sistema seg ´un un proceso de Poisson, lo que significa que los
+clientes que llegan en un intervalo determinado de tiempo siguen una
+distribucion Poisson, con tasa media fija y sin importar cuantos
+clientes ya estan en el sistema 
+(con lo cual la fuente de entrada seria ilimitada).
+
+Cuando los clientes entran al sistema se unen a una cola. 
+La cola es donde los clientes esperan a ser servidos.
+Una cola se caracteriza por el numero maximo permisible
+de clientes que puede admitir.
+La suposici ´on de una cola infinita es mas facil de manejar 
+analiticamente y es por ello la suposicion estandar 
+en la mayoria de los modelos, incluso si existe una 
+cota superior los suficientemente grande que es dificil alcanzar.
+
+Igualmente, en ciertos sistemas de colas puede ocurrir que,
+por limitaciones de espacio, no sea posible admitir mas 
+clientes en cola a partir de una cierta capacidad del sistema. 
+En este caso, los clientes que llegan a la cola cuando el sistema alcanza
+su capacidad maxima son rechazados y abandonan inmediatamente el sistema.
+
+
+En un determinado momento se selecciona un miembro de la cola,
+mediante alguna regla conocida como disciplina de servicio. 
+La disciplina de servicio se refiere al orden en el que se 
+seleccionan los clientes de la cola para recibir el servicio.
+Puede ser:
+
+FIFO (primero en entrar, primero en salir). La suposici ´on m ´as habitual.
+LIFO ( ´ultimo en entrar, primero en salir). Aplicable a sistemas de inventarios.
+Aleatoria
+Procedimiento de prioridad. Aplicable en servicios de emergencia.
+
+Cuando un cliente es seleccionado de la cola, accede al mecanismo
+de servicio. El mecanismo de servicio puede consistir en 
+una secuencia de instalaciones de servicio en serie que 
+el cliente debe pasar para completar el servicio.
+
+En cada instalacion, el tiempo que transcurre desde el 
+inicio del servicio hasta su fin en dicha instalacion
+ se llama tiempo de servicio.
+
+
+Siguiendo la notaci ´on de Kendall (1953), los modelos de colas 
+habitualmente se etiquetan como sigue:
+
+1/2/3/4/5/6
+
+1. Distribuci ´on del tiempo entre llegadas (se asumen independientes)
+
+M Exponencial
+D Deterministica
+Ek Erlang(k)
+G Distribuci ´on arbitraria.
+
+2. Distribuci ´on del tiempo de servicio (se asumen independientes)
+
+M Exponencial
+D Determin ´istica
+Ek Erlang(k)
+G Distribuci ´on arbitraria.
+
+3. Numero de servidores en paralelo
+4. Disciplina de la cola
+
+• FIFO (first in, first out)
+• LIFO (last in, first out)
+• SIRO (service in random order)
+• PRI (priority)
+• GD (general discipline)
+
+5. Capacidad del sistema
+
+6. Tamaño de la fuente de entrada
+
+
+Modelo de colas deterministico D/D/1/-
+
+Consideremos el caso mas elemental de un modelo de colas, 
+cuando las llegadas se producen a una tasa constante,
+ a un sistema de un solo servidor que tiene un tiempo
+de servicio constante. Los individuos son atendidos segun
+una disciplina FIFO.
+
+La terminolog ´ia est ´andar es la siguiente:
+
+Estado del sistema = n ´umero de clientes en el sistema
+Longitud de la cola = n ´umero de clientes en cola = Estado del sistema - n ´umero
+de clientes en servicio
+n(t): n ´umero de clientes en el sistema en el instante t
+?: tasa de llegadas.
+µ: tasa de servicios.
+Wq^(n): tiempo de espera en cola del n-esimo cliente
+
+
+Asumiremos que en el instante t = 0, no hay clientes en el sistema.
+Sea ? el numero de llegadas por unidad de tiempo
+1/? el tiempo constante entre dos llegadas consecutivas.
+Igualmente, sea µ el numero de servicios por unidad de tiempo 
+(cuando el sistema esta ocupado), 
+y por lo tanto, 1/µ el tiempo que se tarda en realizar un servicio.
+En nuestro analisis distinguiremos dos casos, segun si la tasa de 
+llegadas es mayor o menor igual que la de servicios.
+

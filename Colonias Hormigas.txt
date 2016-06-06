@@ -1,0 +1,86 @@
+Los algoritmos de colonias de hormigas de optimización
+
+ACO (Ant Colony Optimitation)
+Técnica probabilística .
+La búsqueda de ruta óptima en el gráfico basado en 
+	comportamiento de las hormigas que buscan un camino entre 
+	su colonia y fuente de alimento.
+Optimización de meta-heurística
+
+Las hormigas navegan desde el nido a la fuente de alimentación 
+Las hormigas son ciegas encuentran el camino más corto a través 
+de rastros de feromonas .
+Cada hormiga se mueve al azar y deposita Pheromone en el camino
+Más feromona en el camino aumenta la probabilidad de la trayectoria
+ssea seguida
+
+Visión general del sistema
+rastro virtual acumulado en los segmentos de trazado
+Ruta seleccionada al azar basado en la cantidad de la actual "rastro "
+en posibles caminos de nodo de inicio
+
+1 método heurístico para resolver una clase muy general de
+problemas de cálculo mediante la combinación de heurística 
+dada por el usuario con la esperanza de obtener un procedimiento 
+más eficiente .
+método heurístico para resolver una clase muy general de
+problemas de cálculo mediante la combinación de heurística dada por el usuario
+con la esperanza de obtener un procedimiento más eficiente .
+2 ACO es meta- heurística
+3 técnica de la computación suave para la solución discreta en
+problemas de optimización
+
+
+Una hormiga se moverá desde el nodo i al nodo j con probabilidad
+
+	  (ti^aj) * (?i^ßj)
+Pij= 	   ________________ 
+  Sumatoria((ti^aj) * (?i^ßj))
+
+dónde
+ti , j es la cantidad de feromona en el borde i , j
+a es un parámetro para controlar la influencia de ti , j 
+?i , j es la conveniencia de borde i , j (típicamente 1 / di , j)
+ß es un parámetro para controlar la influencia de ?i , j
+
+La Cantidad de feromona se actualiza de acuerdo con la ecuación
+
+tij = ( 1 - ? ) tij + ? tij
+
+dónde:
+tij es la cantidad de feromona en un borde dado i , j
+? es la tasa de evaporación de feromonas
+? tij es la cantidad de feromona depositada , por lo general dada por
+?t^kij =(1 / Lk si k hormiga viaja en el borde i, j
+	(0 en otro caso
+donde Lk es el costo de la k de hormiga (típicamente de longitud ) .
+
+ACO - Sistema de Colonia de Hormigas
+En primer lugar mejora importante sobre Ant System
+Las diferencias con Ant System :
+	1 Regla de Decisión - regla proporcional Pseudorandom Feromonas
+	2 Actualización Local
+	3 Mejor única línea de feromonas de actualización
+
+Ventajas
+
+paralelismo inherente
+Comentarios positivos representa el rápido descubrimiento de buena
+soluciones
+Eficiente para viajar problema del vendedor y similares
+problemas
+Puede ser utilizado en aplicaciones dinámicas ( se adapta a los cambios
+tales como las nuevas distancias , etc. )
+
+desventajas
+
+Análisis teórico es difícil
+Secuencias de decisiones al azar ( no independiente)
+cambios en la distribución de probabilidad de iteración
+La investigación es experimental , más que teórico
+Tiempo a la convergencia incierto (pero la convergencia es
+gauranteed )
+
+
+
+
